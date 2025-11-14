@@ -32,3 +32,9 @@ variable "domain_name" {
   type        = string
   description = "My Route53 domain name"
 }
+
+variable "webserver_hostname" {
+  type = string
+  description = "My webserver hostname"
+}
+
